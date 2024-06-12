@@ -1,17 +1,16 @@
-console.log(ojos);//undefined
+saludar();
+let nombre="Javier";
+console.log(nombre)//Javier
+const OJOS=1;
 
-let edad=18;
-edad=19;
-var vivo=true;
-vivo=false;
-const NOMBRE="Jab";
-
-// Todas variables entre {} solo tienen valor dentro de ellas
-if (true){
-    var ojos=2;
+// Variables de ambito local entre {}
+function saludar() {
+    let nombre="Jab";
+    const OJOS=2;
+    var edad=18;
+    console.log(nombre)//Jab
 }
 
-if (true) {
-    let edad=18;
-    console.log(ojos);//2
-}
+// Salida por consola
+// jab
+// javier

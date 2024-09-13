@@ -1,12 +1,13 @@
 let nota = 0;
 subirNota();
 console.log(extra); // 7
-console.log(PUNTOS); // ReferenceError: PUNTOS is not defined
+console.log(PUNTOS); //Uncaught Reference Error: PUNTOS is not defined
 
 function subirNota() {
   nota = 2;
   extra = 7;
   console.log(nota); // 2
+  console.log(extra); // 7
   const PUNTOS = 10;
 }
 

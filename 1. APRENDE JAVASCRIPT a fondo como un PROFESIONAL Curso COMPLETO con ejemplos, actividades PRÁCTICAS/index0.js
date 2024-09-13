@@ -1,4 +1,4 @@
-let nota;
+let nota;//undefined
 subirNota();
 console.log(nota + 1); // NaN
 

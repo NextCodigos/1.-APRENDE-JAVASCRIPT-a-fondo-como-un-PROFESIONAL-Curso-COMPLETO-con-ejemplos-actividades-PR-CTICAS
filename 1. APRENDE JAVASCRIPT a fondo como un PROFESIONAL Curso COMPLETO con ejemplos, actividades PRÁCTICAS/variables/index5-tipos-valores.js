@@ -3,6 +3,7 @@
 
 // Tipos de valores
 // Cuando dejo vacía sin ningún tipo de valor
+// Con CONST no se puede dejar vacia
 let usuario; // Undefined
 console.log(typeof usuario); // undefined
 
@@ -19,7 +20,8 @@ let nombre3 = `Jab`;
 
 // Ocupan un bit, sin comillas
 let vivo = true;
-let vivo2 = 1;
+let vivo2 = false;
+let vivo3 = 1;
 
 // Array: No se aconseja mezclar strings y numbers
 let nombres = ["Jab", 1, "Javier"];
@@ -55,14 +57,22 @@ let personas = [
 ];
 console.log(personas);
 // [
-//     { nombre: 'Jab', edad: 25, nivel: 3 },
-//     { nombre: 'Javier', edad: 18, nivel: 4 }
-// ]
-console.log(personas[0].nombre); // "Jab"
-console.log(personas[1].nombre); // "Javier"
-
-// NaN
-let a = "Jab";
-let n = 8;
-let resultado = a / n;
-console.log(resultado); // NaN
+  //     { nombre: 'Jab', edad: 25, nivel: 3 },
+  //     { nombre: 'Javier', edad: 18, nivel: 4 }
+  // ]
+  console.log(personas[0].nombre); // "Jab"
+  console.log(personas[1].nombre); // "Javier"
+  
+  // NaN
+  let a = "Jab";
+  let n = 8;
+  let resultado = a / n;
+  console.log(resultado); // NaN
+  
+  // Podemos cambiar el tipo dedato e una variable
+  let name="Jab";
+  name=56;
+  name=true;
+  name=null;
+  console.log(typeof name); // object
+  

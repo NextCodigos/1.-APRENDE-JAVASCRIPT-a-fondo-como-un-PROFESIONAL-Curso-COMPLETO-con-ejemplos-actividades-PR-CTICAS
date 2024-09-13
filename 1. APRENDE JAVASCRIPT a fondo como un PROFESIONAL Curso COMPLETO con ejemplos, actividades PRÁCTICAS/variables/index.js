@@ -4,4 +4,3 @@ let edad=18;
 edad=19;
 var vivo=true;
 vivo=false;
-const NOMBRE="Jab";

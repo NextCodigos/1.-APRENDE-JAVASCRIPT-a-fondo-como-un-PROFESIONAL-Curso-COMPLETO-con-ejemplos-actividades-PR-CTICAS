@@ -14,5 +14,5 @@ let MI_NOMBRE="Jab";
 
 // console.log(miNombre)
 // Distingue entre minúsculas y mayúsculas.
-// Sintais cameCase.
+// Sintaxis camelCase.
 // Solo pueden empezar con una letra,dolar o guion bajo, Sin espacios,ñ,acentos o smbolos raros.

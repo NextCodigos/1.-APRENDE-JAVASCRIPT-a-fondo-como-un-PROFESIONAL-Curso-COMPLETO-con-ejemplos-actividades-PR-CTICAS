@@ -1,7 +1,9 @@
 console.log(miNombre); // undefined
 let color = "Rojo";
 if (true) {
+  // Tiene validez de forma global
   var miNombre = "Jab";
+  // Tiene validez solo dentro del if
   let color = "Azul";
 }
 console.log(miNombre); // Jab

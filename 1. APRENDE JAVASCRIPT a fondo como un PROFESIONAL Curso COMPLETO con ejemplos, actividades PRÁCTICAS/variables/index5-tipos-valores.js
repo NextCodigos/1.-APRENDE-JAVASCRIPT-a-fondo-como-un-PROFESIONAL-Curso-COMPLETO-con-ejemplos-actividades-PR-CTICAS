@@ -62,14 +62,16 @@ console.log(personas);
   // ]
   console.log(personas[0].nombre); // "Jab"
   console.log(personas[1].nombre); // "Javier"
-  
+  console.log(personas[1].edad); // 18
+  console.log(personas[1].nivel); // 4
+    
   // NaN
   let a = "Jab";
   let n = 8;
   let resultado = a / n;
   console.log(resultado); // NaN
   
-  // Podemos cambiar el tipo dedato e una variable
+  // Podemos cambiar el tipo dedajo e una variable
   let name="Jab";
   name=56;
   name=true;

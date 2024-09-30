@@ -8,6 +8,10 @@ const NOMBRE="Jab";
 
 // Todas variables entre {} solo tienen valor dentro de ellas
 if (true){
+    var ojos=3;
+}
+// Si pongo let o const no lee fuera
+if (true){
     var ojos=2;
 }
 

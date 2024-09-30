@@ -12,6 +12,8 @@ function saludar(gusanos) {
     console.log(nombre)//BENI
     
 }
+console.log(nombre)//Beny y Oleg
+console.log(gusanos)//Brocheta
 saludar(gusanos);//BENI  
 // Salida por consola
 // jab

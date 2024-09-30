@@ -5,11 +5,11 @@ saludar();
 
 // Variables de ambito local entre {}
 function saludar() {
-    nombre="Jab";
+    let nombre="Jab";
     var edad=18;
     console.log(nombre)//Jab
     }
-console.log(nombre); // Jab
+console.log(nombre); // javier
 
 // En JavaScript, las variables declaradas con let y const tienen un ámbito de bloque, lo que significa que son visibles solo dentro del bloque de código donde se declaran. En este caso, la variable nombre está declarada fuera de la función saludar(), por lo que su valor no se modifica dentro de la función.
 
